@@ -1,0 +1,12 @@
+# Smile Dental Clinic - Robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://smiledentalkharghar.com/sitemap.xml
+
+# Disallow admin/private areas
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+Disallow: /*.json$
